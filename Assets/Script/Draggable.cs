@@ -41,7 +41,7 @@ public class Draggable : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.R))
             {
                 // Rotate the object by 30 degrees clockwise around the Z-axis
-                transform.Rotate(Vector3.forward, 30f);
+                transform.Rotate(Vector3.forward, 60f);
             }
             else if (Input.GetKeyDown(KeyCode.F))
             {
